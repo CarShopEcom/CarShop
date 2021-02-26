@@ -1,3 +1,57 @@
 *{
     box-sizing: border-box;
 }
+.body{
+    width: 100%;
+    
+}
+.header {
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+}
+
+.logo-img {
+    float: left;
+    position: relative;
+    border-radius: 50%;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.site-name{
+    color: skyblue;
+    font-size: xx-large;
+    position: relative;
+    top:36px;
+    left: 6px;
+    font-family: 'Krona One', sans-serif;
+    text-transform: uppercase;
+}
+.clr{
+    clear: both;
+}
+.nav-bar{
+    float: right;
+}
+.item{
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    
+}
+
+
+.item li {
+    display: inline-block;   
+    padding-right: 12px;
+    font-family: 'Krona One', sans-serif;
+   
+}
+.item li a{
+    text-decoration: none;
+}
+.item li button{
+    border-radius: 20%;
+    margin-left: 20px;
+}
