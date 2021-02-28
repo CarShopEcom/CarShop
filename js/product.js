@@ -30,6 +30,8 @@ function addToCart(targetId) {
         price: price,
         name: name
     };
+
+    
     if (localStorage.getItem("user-cart")) {
         userCart = JSON.parse(localStorage.getItem("user-cart"));
     }
