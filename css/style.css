@@ -3,29 +3,40 @@
 }
 .body{
     width: 100%;
+    position: relative;
+    
     
 }
 .header {
-    background-color: gray;
+    position: fixed ; top: 0;
+    background-size:     cover;                
+    background-repeat:   no-repeat;
+    background-position: center center;   
+    height: 20%;
     width: 100%;
     margin: auto;
-    position: fixed;
+    z-index: 999;
+    background-repeat: no-repeat;
+
 }
+
+
 
 .logo-img {
     float: left;
     position: relative;
-    border-radius: 50%;
-    padding-top: 5px;
+    padding-top: 20px;
     margin-left: 10px;
+    
 }
 .site-name{
-    color: skyblue;
-    font-size: xx-large;
+    color: white;
+    font-size: 50px;
     position: relative;
-    top:36px;
+    font: bold;
+    top: 20px;
     left: 6px;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Martel', serif;
     text-transform: uppercase;
 }
 .clr{
@@ -33,25 +44,63 @@
 }
 .nav-bar{
     float: right;
+    font-family: 'Martel', serif;
+    font-size: larger;
+    padding-top: 35px;
 }
 .item{
-    position: absolute;
+  
     right: 40px;
-    bottom: 50px;
-    
+    bottom: 35px; 
+      
 }
-
 
 .item li {
     display: inline-block;   
     padding-right: 12px;
-    font-family: 'Krona One', sans-serif;
    
 }
 .item li a{
     text-decoration: none;
 }
 .item li button{
-    border-radius: 20%;
+    border: none;
     margin-left: 20px;
+    
 }
+.item li input{
+    border: none;
+    cursor: pointer;
+
+}
+
+._14{
+    padding-top: 10px;
+    text-align: center;
+    transform: translateX(-53px);
+    margin-bottom: 10px;
+}
+ul.social-icons{
+    transform: translateX(65px);
+    margin-top: 10px;
+}
+
+#myVideo {
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  /* .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  } */
+  

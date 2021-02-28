@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <title>Car Zone</title>
@@ -14,8 +15,8 @@
 
 <body class="body">
     <header class="header">
-        <img class="logo-img" src="https://placehold.it/100x100/ddd" alt="logo">
-        <h1 class="site-name">Car Zone</h1> <!-- adding google font -->
+        <img class="logo-img" src="img/dealer-logo.png" alt="logo">
+        <h1 class="site-name"></h1> <!-- adding google font -->
 
         <nav class="nav-bar">
             <!-- nav Gose here -->
@@ -23,10 +24,12 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
                 <li>
-                    <input type="text" name="">
-                    <button>Search</button>
+                    <form id="form">
+                        <input type="search" id="query" name="q" placeholder="Search...">
+                        <button>Search</button>
+                    </form>
                 </li>
             </ul>
         </nav>
@@ -34,12 +37,50 @@
 
     </header>
     <main>
-        <!-- main Gose Here -->
+        <video autoplay muted loop id="myVideo">
+            <source src="img/InShot_20210228_155237241.mp4" type="video/mp4">
+        </video>
     </main>
-    <footer>
-        <!-- Footer Gose Here -->
+    <footer class="footer">
+        <div class="useful-links">
+            <ul>
+                <br>
+                <li>USEFUL LINKS</li>
+                <br>
+                <li><a href="#">Ultimate Driving Tours</a></li>
+                <br>
+                <li><a href="#">Sell Your Car</a></li>
+                <br>
+                <li><a href="#">Super Car Club</a></li>
+                <br>
+                <li><a href="#">Super Car Service</a></li>
+                <br>
+            </ul>
+        </div>
+        <div class="working-hours">
+            <ul>
+                <br>
+                <li>OPENING TIMES</li>
+                <br>
+                <li>Sunday to Thursday – 8:30am to 5:30pm</li>
+                <br>
+                <li>Saturday – 10:00am to 6:00pm</li>
+                <br>
+                <li>Friday – 1:00am to 8:00pm</p>
+                <br>
+            </ul>
+        </div>
+        <div><h4 class="_14">All Right Reserved &copy; 2021</h4></div>
+        <div class="footer-social-icons">
+            <ul class="social-icons">
+                <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
     </footer>
-
 </body>
 
 </html>
