@@ -103,4 +103,75 @@ ul.social-icons{
     width: 100%;
     padding: 20px;
   } */
+  #best-Seler{
+    margin-top:2em;
+   
+    width: 80%;
+    height:15em ;
+    margin: auto;
+    
+}
+ #title-main{
+    text-align: center;
+    font-family: 'Faster One', cursive;
+    font-size:xxx-large;
+    color:skyblue;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    transform: scale(1, 1);
+    margin-bottom: 15px;
+    
+}
+#best-Seler .flip-card{
+    width: 24%;
+    height: 12em;
+    display: inline-block;
+    margin-left:6px;
+     perspective: 1000px;}
+
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+   
+    box-shadow: 5px 4px 8px 10px rgba(118, 119, 18, 0.289);
+    transform-style: preserve-3d;
+   
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* -webkit-backface-visibility: hidden; */
+    /* backface-visibility: hidden; */
+    
+  }
+  
+  .flip-card-front {
+  
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color:#ddd8d87e;
+    /* background-image: url("/img/2021-audi-tt.jpg"); */
+    height: 200px;
+    color:black;
+
+    font-weight: bold;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back p ,.flip-card-back h1{
+    margin: 5px;
+    /* width: 50%; */
+    font-size: large;}
   
