@@ -1,57 +1,155 @@
-*{
-    box-sizing: border-box;
-}
-.body{
-    width: 100%;
-    
-}
-.header {
-    background-color: gray;
-    width: 100%;
-    margin: auto;
-    position: fixed;
-}
 
-.logo-img {
-    float: left;
-    position: relative;
-    border-radius: 50%;
-    padding-top: 5px;
-    margin-left: 10px;
-}
-.site-name{
-    color: skyblue;
-    font-size: xx-large;
-    position: relative;
-    top:36px;
-    left: 6px;
-    font-family: 'Krona One', sans-serif;
-    text-transform: uppercase;
-}
-.clr{
-    clear: both;
-}
-.nav-bar{
-    float: right;
-}
-.item{
-    position: absolute;
-    right: 40px;
-    bottom: 50px;
-    
-}
-
-
-.item li {
-    display: inline-block;   
-    padding-right: 12px;
-    font-family: 'Krona One', sans-serif;
+#best-Seler{
+    margin-top:2em;
    
+    width: 80%;
+    height:15em ;
+    /* margin-left: 10%;
+    margin-left:auto;
+    margin-right:auto; */
+    margin: auto;
+    
 }
-.item li a{
-    text-decoration: none;
+ #title-main{
+    text-align: center;
+    font-family: 'Faster One', cursive;
+    font-size:xxx-large;
+    color:skyblue;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    transform: scale(1, 1);
+    margin-bottom: 15px;
+    
 }
-.item li button{
-    border-radius: 20%;
-    margin-left: 20px;
+#best-Seler .flip-card{
+    width: 24%;
+    height: 12em;
+    display: inline-block;
+    margin-left:6px;
+     perspective: 1000px;
+    /* background-color:skyblue; */
+    /* background-image: url("/img/2021-audi-tt.jpg"); */
+}
+
+.flip-card {
+    /* background-color: transparent; */
+    /* width: 300px;
+    height: 200px; */
+    /* perspective: 1000px; */
+    /* background-color:skyblue; */
+    /* background-image: url("/img/2021-audi-tt.jpg"); */
+    
+   
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+   
+    box-shadow: 5px 4px 8px 10px rgba(118, 119, 18, 0.289);
+    transform-style: preserve-3d;
+   
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* -webkit-backface-visibility: hidden; */
+    /* backface-visibility: hidden; */
+    
+  }
+  
+  .flip-card-front {
+  
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color:#ddd8d87e;
+    /* background-image: url("/img/2021-audi-tt.jpg"); */
+    height: 200px;
+    color:black;
+
+    font-weight: bold;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back p ,.flip-card-back h1{
+    margin: 5px;
+    /* width: 50%; */
+    font-size: large;
+   
+  }
+  .flip-card-back h2{
+      padding:20px;
+      text-transform: uppercase;
+      font-size: xx-large;
+     
+  }
+
+ #our-Partner{
+      width: 100%;
+      height: 130px;
+      margin-top: 30px;
+       /* background-color: rgb(255, 145, 0);  */
+  }
+
+  #our-Partner p{
+    font-family: 'Faster One', cursive;
+    font-size:xxx-large;
+    
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    transform: scale(1, 1);
+      text-align: center;
+      color: chocolate;
+      margin-bottom: 15px;
+  }
+
+  .ourPartner{
+      width: 100px;
+      height:70px;
+      /* background-color: black; */
+     display: inline-block;
+     margin-left:140px;
+     border-radius: 10%;
+     background-color: black;
+      /* background-image: url(/img/maxresdefault.jpg);
+     background-size: 100px 100px;  */
+  }
+ 
+.ourPartner .imgOurPartner{
+    width: 100px;
+    height: 70px;
+    /* border-radius: 20%; */
+}
+.btnCardBack {
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #ed3330;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+.btnCardBack:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+.test{
+    height: 1000px;
 }
