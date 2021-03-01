@@ -17,9 +17,9 @@ For the perpouse of ASAC program
 
 ## User Stories
 
-As a user, I want to search for my favorite car and be able to buy it.
-As a user , I want to see the beast selling cars and its prices.
-As a user , I want to see the most popular partner for car selling .
+1. As a user, I want to search for my favorite car and be able to buy it.
+2.As a user , I want to see the beast selling cars and its prices.
+3. As a user , I want to see the most popular partner for car selling .
 
 ## Software Requirements
 
