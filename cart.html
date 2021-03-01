@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Car Zone</title>
 </head>
 
@@ -20,7 +21,10 @@
               <tr>
                 <th>Car Name</th>
                 <th>Price</th>
+                <th>Color</th>
+                <th>Picture</th>
                 <th>Total</th>
+                
               </tr>
             </thead>
             <tbody id="tBody">
@@ -32,6 +36,25 @@
           </table>
 
           <button id="checkOut">Check Out</button>
+         
+          <div class="card" id="card-main">
+            <img id="imgCart" src="img/2021-audi-tt.jpg" alt="John" width="300" height="300">
+            <h1 id="nameCar">John Doe</h1>
+            <p class="title" id="colrcar" >CEO & Founder, Example</p>
+            <p  id="pricecolor">Harvard University</p>
+
+            <!-- <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a> -->
+            <p><button class="popup" onclick="myFunction()">Contact
+              <span class="popuptext" id="myPopup">Thanks you for choosing our website,we will contact with you to arrive car</span>
+            </button></p>
+          </div>
+
+          <!-- <div class="popup" onclick="myFunction()">Click me!
+            <span class="popuptext" id="myPopup">Popup text...</span>
+          </div> -->
     </main>
     <footer>
         <!-- Footer Gose Here -->

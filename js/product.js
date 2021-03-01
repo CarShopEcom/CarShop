@@ -15,6 +15,9 @@ for (let i = 0; i < 8; i++) {
     let targetRow = document.getElementById("add-to-cart-btn-" + indeximage);
     targetRow.setAttribute("data-price", allCar[i].price);
     targetRow.setAttribute("data-name", allCar[i].name);
+    targetRow.setAttribute("data-color",allCar[i].color);
+    targetRow.setAttribute("data-filePath",allCar[i].filePath);
+    // console.log(x);
     indeximage++;
     if (indeximage > 8) {
         break;
@@ -26,9 +29,14 @@ function addToCart(targetId) {
     let target = document.getElementById(targetId);
     let price = target.getAttribute("data-price");
     let name = target.getAttribute("data-name");
+    let color =target.getAttribute("data-color");
+    let filePath =target.getAttribute("data-filePath");
     let car = {
         price: price,
-        name: name
+        name: name,
+        color:color,
+        filePath:filePath
+        
     };
     if (localStorage.getItem("user-cart")) {
         userCart = JSON.parse(localStorage.getItem("user-cart"));
