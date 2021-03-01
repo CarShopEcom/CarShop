@@ -1,109 +1,5 @@
-*{
-    box-sizing: border-box;
-}
-.body{
-    width: 100%;
-    position: relative;
-    
-    
-}
-.header {
-    position: fixed ; top: 0;
-    background-size:     cover;                
-    background-repeat:   no-repeat;
-    background-position: center center;   
-    height: 20%;
-    width: 100%;
-    margin: auto;
-    z-index: 999;
-    background-repeat: no-repeat;
 
-}
-
-
-
-.logo-img {
-    float: left;
-    position: relative;
-    padding-top: 20px;
-    margin-left: 10px;
-    
-}
-.site-name{
-    color: white;
-    font-size: 50px;
-    position: relative;
-    font: bold;
-    top: 20px;
-    left: 6px;
-    font-family: 'Martel', serif;
-    text-transform: uppercase;
-}
-.clr{
-    clear: both;
-}
-.nav-bar{
-    float: right;
-    font-family: 'Martel', serif;
-    font-size: larger;
-    padding-top: 35px;
-}
-.item{
-  
-    right: 40px;
-    bottom: 35px; 
-      
-}
-
-.item li {
-    display: inline-block;   
-    padding-right: 12px;
-   
-}
-.item li a{
-    text-decoration: none;
-}
-.item li button{
-    border: none;
-    margin-left: 20px;
-    
-}
-.item li input{
-    border: none;
-    cursor: pointer;
-
-}
-
-._14{
-    padding-top: 10px;
-    text-align: center;
-    transform: translateX(-53px);
-    margin-bottom: 10px;
-}
-ul.social-icons{
-    transform: translateX(65px);
-    margin-top: 10px;
-}
-
-#myVideo {
-    object-fit: cover;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  /* .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  } */
-  #best-Seler{
+#best-Seler{
     margin-top:2em;
    
     width: 80%;
@@ -174,10 +70,251 @@ ul.social-icons{
     margin: 5px;
     /* width: 50%; */
     font-size: large;}
+    .body{
+        width: 100%;
+        position: relative;
+        
+        
+    }
+    .header {
+        position: fixed ; top: 0;
+        background-size:     cover;                
+        background-repeat:   no-repeat;
+        background-position: center center;   
+        height: 20%;
+        width: 100%;
+        margin: auto;
+        z-index: 999;
+        background-repeat: no-repeat;
+    
+    }
+    
+    
+    
+    .logo-img {
+        float: left;
+        position: relative;
+        padding-top: 20px;
+        margin-left: 10px;
+        
+    }
+    .site-name{
+        color: white;
+        font-size: 50px;
+        position: relative;
+        font: bold;
+        top: 20px;
+        left: 6px;
+        font-family: 'Martel', serif;
+        text-transform: uppercase;
+    }
+    .clr{
+        clear: both;
+    }
+    .nav-bar{
+        float: right;
+        font-family: 'Martel', serif;
+        font-size: larger;
+        padding-top: 35px;
+    }
+    .item{
+      
+        right: 40px;
+        bottom: 35px; 
+          
+    }
+    
+    .item li {
+        display: inline-block;   
+        padding-right: 12px;
+   
+  }
+  .flip-card-back h2{
+      padding:20px;
+      text-transform: uppercase;
+      font-size: xx-large;
+     
+  }
+
+ #our-Partner{
+      width: 100%;
+      height: 130px;
+      margin-top: 30px;
+       /* background-color: rgb(255, 145, 0);  */
+  }
+
+  #our-Partner p{
+    font-family: 'Faster One', cursive;
+    font-size:xxx-large;
+    
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    transform: scale(1, 1);
+      text-align: center;
+      color: chocolate;
+      margin-bottom: 15px;
+  }
+
+  .ourPartner{
+      width: 100px;
+      height:70px;
+      /* background-color: black; */
+     display: inline-block;
+     margin-left:140px;
+     border-radius: 10%;
+     background-color: black;
+      /* background-image: url(/img/maxresdefault.jpg);
+     background-size: 100px 100px;  */
+  }
+ 
+.ourPartner .imgOurPartner{
+    width: 100px;
+    height: 70px;
+    /* border-radius: 20%; */
+}
+.btnCardBack {
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #ed3330;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+.btnCardBack:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+.test{
+    height: 1000px;
+}
+.item li a{
+    text-decoration: none;
+}
+.item li button{
+    border: none;
+    margin-left: 20px;
+    
+}
+.item li input{
+    border: none;
+    cursor: pointer;
+
+}
+
+._14{
+    padding-top: 10px;
+    text-align: center;
+    transform: translateX(-53px);
+    margin-bottom: 10px;
+}
+ul.social-icons{
+    transform: translateX(65px);
+    margin-top: 10px;
+}
+
+#myVideo {
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  /* .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  } */
+  #best-Seler{
+    margin-top:2em;
+   
+    width: 80%;
+    height:15em ;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+ #title-main{
+    text-align: center;
+    font-family: 'Faster One', cursive;
+    font-size:xxx-large;
+    color:skyblue;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    transform: scale(1, 1);
+    margin-bottom: 15px;
+    
+}
+#best-Seler .flip-card{
+    width: 24%;
+    height: 12em;
+    display: inline-block;
+    margin-left:6px;
+     perspective: 1000px;}
+
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+   
+    box-shadow: 5px 4px 8px 10px rgba(118, 119, 18, 0.289);
+    transform-style: preserve-3d;
+   
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* -webkit-backface-visibility: hidden; */
+    /* backface-visibility: hidden; */
+    
+  }
+  
+  .flip-card-front {
+  
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color:#ddd8d87e;
+    /* background-image: url("/img/2021-audi-tt.jpg"); */
+    height: 200px;
+    color:black;
+
+    font-weight: bold;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back p ,.flip-card-back h1{
+    margin: 5px;
+    /* width: 50%; */
+    font-size: large;}
+    
     #our-Partner{
         width: 100%;
         height: 130px;
         margin-top: 30px;
+        margin-bottom: 30px;
          /* background-color: rgb(255, 145, 0);  */
     }
   
@@ -220,6 +357,7 @@ ul.social-icons{
       border: none;
       transition: all 0.4s ease 0s;
       }
+
   .btnCardBack:hover {
       background: #434343;
       letter-spacing: 1px;
@@ -228,3 +366,4 @@ ul.social-icons{
       box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
       transition: all 0.4s ease 0s;
       }
+  

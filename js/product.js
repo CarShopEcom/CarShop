@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 'use strict';
-const cart = new Cart([]);
+
 
 // let products= document.getElementById('products');
 console.log(allCar);
@@ -30,12 +30,9 @@ function addToCart(targetId) {
         price: price,
         name: name
     };
-
-    
     if (localStorage.getItem("user-cart")) {
         userCart = JSON.parse(localStorage.getItem("user-cart"));
     }
-
     userCart.push(car);
     console.log(JSON.stringify(userCart));
     localStorage.setItem("user-cart", JSON.stringify(userCart));
