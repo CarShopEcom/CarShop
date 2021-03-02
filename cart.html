@@ -8,11 +8,33 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Car Zone</title>
 </head>
 
 <body>
-
+  <header class="header">
+    <img class="logo-img" src="img/dealer-logo.png" alt="logo">
+    <h1 class="site-name"></h1> <!-- adding google font -->
+    <nav class="nav-bar">
+        <!-- nav Gose here -->
+        <ul class="item">
+            <li><a href="#">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <!-- <li class="se">
+                    <form action="">
+                        <input type="search">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </li> -->
+        </ul>
+    </nav>
+    <div class="clr"></div>
+</header>
     <main>
         <!-- main Gose Here -->
                 <table id="cart">
@@ -20,7 +42,10 @@
               <tr>
                 <th>Car Name</th>
                 <th>Price</th>
+                <th>Color</th>
+                <th>Picture</th>
                 <th>Total</th>
+                
               </tr>
             </thead>
             <tbody id="tBody">
@@ -32,10 +57,76 @@
           </table>
 
           <button id="checkOut">Check Out</button>
+         
+          <div class="card" id="card-main">
+            <img id="imgCart" src="img/2021-audi-tt.jpg" alt="John" width="300" height="300">
+            <h1 id="nameCar"></h1>
+            <p class="title" id="colrcar" ></p>
+            <p  id="pricecolor"></p>
+
+            <p><button class="popup" onclick="myFunction()">Contact
+              <span class="popuptext" id="myPopup">Thanks you for choosing our website,we will contact with you to arrive the car</span>
+            </button></p>
+          </div>
+
+          <!-- <div class="popup" onclick="myFunction()">Click me!
+            <span class="popuptext" id="myPopup">Popup text...</span>
+          </div> -->
     </main>
-    <footer>
-        <!-- Footer Gose Here -->
-    </footer>
+    <footer class="footer">
+      <div class="useful-links">
+          <ul>
+              <br>
+              <li>USEFUL LINKS</li>
+              <br>
+              <li><a href="#">Ultimate Driving Tours</a></li>
+              <br>
+              <li><a href="#">Sell Your Car</a></li>
+              <br>
+              <li><a href="#">Super Car Service</a></li>
+              <br>
+          </ul>
+      </div>
+      <div class="working-hours">
+          <ul>
+              <br>
+              <li>OPENING TIMES</li>
+              <br>
+              <li>Sunday to Thursday – 8:30am to 5:30pm</li>
+              <br>
+              <li>Saturday – 10:00am to 6:00pm</li>
+              <br>
+              <li>Friday – 1:00am to 8:00pm</p>
+                  <br>
+          </ul>
+      </div>
+      <div class="location">
+          <ul>
+              <br>
+              <li>Our Show Room</li>
+              <br>
+              <li>Aydoun - Wasfi At-Tal St - Irbid</li>
+              <br>
+              <li>Dabouq - Al-Hijaz St - Amman</li>
+              <br>
+              <li>Movenpick Beach - K. Hussein St - Aqaba</li>
+              <br>
+          </ul>
+      </div>
+      <div class="_copy">
+          <p>&copy; Car Zone Middel East 2021</p>
+      </div>
+      <div class="footer-social-icons">
+          <ul class="social-icons">
+              <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+              <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+              <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+              <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+              <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
+          </ul>
+      </div>
+
+  </footer>
 <script src="js/cart.js"></script>
 </body>
 
