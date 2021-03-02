@@ -28,8 +28,8 @@ if(data){
     td3.textContent = data[i].price;
     td5.textContent =data[i].color;
     td6.src=data[i].filePath;
-    td6.width=50;
-    td6.height=50;
+    td6.width=100;
+    td6.height=100;
     total+=parseInt(data[i].price);
 
   }
@@ -40,9 +40,12 @@ if(data){
 // console.log(td6.src);
 // console.log()
 
+let view = document.getElementById('card-main');
+view.style.display = 'none';
 
 function clear(){
   // alert(`Your Order Need 2 Weeks To arrive and the Total ${total} `);
+   view.style.display='block';
   let table = document.getElementById('cart');
   table.style.display='none';
   let cart =document.getElementById('card-main');
@@ -54,6 +57,7 @@ let colrcar =document.getElementById('colrcar');
 colrcar.textContent=td5.textContent;
 let pricecolor =document.getElementById('pricecolor');
 pricecolor.textContent=`$$ ${td3.textContent}`;
+
   tBody.innerHTML = '';
   localStorage.removeItem('user-cart');
 }
