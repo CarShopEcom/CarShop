@@ -1,5 +1,7 @@
 @import "compass/css3";
-
+*{
+  box-sizing: border-box;
+}
 table {
   font-family: 'Arial';
   margin: 25px auto;
