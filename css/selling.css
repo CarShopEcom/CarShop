@@ -5,10 +5,11 @@
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background: linear-gradient(#141e30, #243b55);
+    /* background: linear-gradient(#012b2b, #072636); */
   }
   
   .login-box {
+    margin-top:100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -185,3 +186,153 @@
   height: 20px;
   
 }
+/*************************************header***********************************************/
+.container {
+  max-width: 60em;
+  min-width: 45em;
+  margin: 0 auto;
+  padding: 0 2em;
+  }
+  nav {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  z-index: 3;
+  background-color: black;
+  }
+  ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: right;
+  }
+  li {
+  display: inline-block;
+  padding: 2em;
+  text-align: center;
+  transition: all .2s;
+  }
+  li :last-child {
+    padding-right: 0;
+  }
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    transition: all .3s;
+  }
+  nav ul li  a  :hover {
+      color: #DDD;
+    }
+  #icon {
+  display: inline-block;
+  padding-top: .7em;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+
+
+  /* add footer */
+
+  
+.site-footer {
+  /* margin-top: 100px; */
+  position: relative;
+  background-color:#1A1F24;
+  width: 100%;
+    top: 400px;   
+  bottom: 0;
+    /* display: block; */
+  }
+  .site-footer .container {
+  max-width: 85%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 20px;
+  }
+  .site-footer .container h1 {
+  font-size: 40px;
+  }
+  .site-footer .container h2 {
+  font-size: 40px;
+  float: right;
+  }
+  .site-footer .grid-container a {
+  color: #A2845C;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 16.25px;
+  }
+  .site-footer .grid-item {
+  padding: 10px;
+  color: #A2845C;
+  }
+  .site-footer .grid-container .inner-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: left;
+  }
+  .site-footer .container hr {
+  display: block;
+  height: 1px;
+  border: 0; border-top: 1px solid #A2845C;
+  margin: 1px;
+  padding: 0;
+  }
+  .site-footer .container p {
+  font-size: 14px;
+  text-align: right;
+  color: #A2845C;
+  font-weight: 500;
+  }
+  .site-footer .container .logo-img {
+  width: 180px;
+  height: 140px;
+  cursor: pointer;
+  }
+  .site-footer .grid-container .grid-item .social-buttons {
+  padding-top: 20px;
+  }
+  .site-footer .grid-container .grid-item .social-buttons a {
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  color: #1A1F24;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 8px;
+    color: #FFF;
+  }
+  .site-footer .grid-container .grid-item .social-buttons a i{
+  transition: 0.3s ease-in;
+    text-align: center;
+  }
+  .site-footer .grid-container .grid-item .social-buttons a:hover i {
+  background: linear-gradient(45deg,#A2845C,#A2845C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+    /* color: #FFF; */
+  }
+  .circle-icon {
+    /* background: #A2845C; */
+    padding:12px;
+    /* border-radius: 50%; */
+  }
+  .fa-facebook {
+    /* padding: 10px 14px; */
+    transition: .5s;
+    /* background-color: #322f30; */
+  }
+  .fa-twitter {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
