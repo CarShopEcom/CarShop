@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Car Zone</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="fontawesome-cog" id="icon"></div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="selling.html">Sell Page</a>
+                </li>
+                <li>
+                    <a href="aboutUs.html">About Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+<div class="tabless"></div>
+        <table id="cart">
+            <thead>
+                <tr>
+                    <th>Car Name</th>
+                    <th>Price</th>
+                    <th>Color</th>
+                    <th>Picture</th>
+                    <th>Total</th>
+
+                </tr>
+            </thead>
+            <tbody id="tBody">
+
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+        <button id="checkOut">Check Out</button>
+
+        <div class="card" id="card-main">
+            <img id="imgCart" src="img/2021-audi-tt.jpg" alt="John" width="300" height="300">
+            <h1 id="nameCar"></h1>
+            <p class="title" id="colrcar"></p>
+            <p id="pricecolor"></p>
+
+            <p><button class="popup" onclick="myFunction()">Contact
+                    <span class="popuptext" id="myPopup">Thank you for choosing our website,we will be contact soon</span>
+                </button></p>
+        </div>
+
+        <!-- <div class="popup" onclick="myFunction()">Click me!
+            <span class="popuptext" id="myPopup">Popup text...</span>
+          </div> -->
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item">
+                </div>
+                <div class="grid-item">
+                    <div class="social-buttons">
+                        <a href=""><i class="fab fa-instagram circle-icon"></i></a>
+                        <a href=""><i class="fab fa-facebook circle-icon"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in circle-icon"></i></a>
+                        <a href=""><i class="fab fa-twitter circle-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p>Copyright © 2021 | Redempt Ltd | Redempt Resourcing | Redempt Health ltd All rights reserved</p>
+        </div>
+    </footer>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
