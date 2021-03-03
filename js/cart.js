@@ -41,6 +41,8 @@ let view = document.getElementById('card-main');
 view.style.display = 'none';
 
 function clear() {
+  let btn = document.getElementById('checkOut');
+  btn.style.display="none";
   view.style.display = 'block';
   let table = document.getElementById('cart');
   table.style.display = 'none';
@@ -52,10 +54,10 @@ function clear() {
   let colrcar = document.getElementById('colrcar');
   colrcar.textContent = td5.textContent;
   let pricecolor = document.getElementById('pricecolor');
-  pricecolor.textContent = `$$ ${td3.textContent}`;
-
+  pricecolor.textContent = `$${td3.textContent}`;
   tBody.innerHTML = '';
   localStorage.removeItem('user-cart');
+ 
 }
 
 
